@@ -1,0 +1,24 @@
+header{
+    width: 100%;
+ 
+    height: 100vh;
+     background-image: url("codeScreen.jpg"); 
+     background-repeat: no-repeat;
+
+}
+
+.center{
+
+    color:white;
+    padding: 13vh 0;
+    text-align: center;
+}
+
+header p{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.lead-line{
+    font-size: 1.5rem;
+}
