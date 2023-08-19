@@ -10,6 +10,7 @@ setInterval(
                 if (i==11)
                 {
                         document.getElementsByClassName("wipe-container")[0].classList.toggle("orange");
+                        document.getElementsByClassName("cc")[0].classList.toggle("orange");
                         toggle=true;
                 }
                 document.getElementById("wipe-text").style.animation = "wipein 1s linear,wipeout 1s linear 2s";
@@ -20,6 +21,7 @@ setInterval(
                         if(toggle)
                         {
                                 document.getElementsByClassName("wipe-container")[0].classList.toggle("orange");
+                                document.getElementsByClassName("cc")[0].classList.toggle("orange");
                                 toggle=false;    
                         }
                 }, 3000); i++;
