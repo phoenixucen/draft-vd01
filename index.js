@@ -1,4 +1,4 @@
-
+document.getElementById("wipe-text").style.animation= "wipeout 1s linear 2.1s";
 const texts=["RIDE","OWER","URPOSE","RINCIPLE","REPARATION","LANNING","RACTICE","OINT","RODUCTIVITY","ATIENCE","ERSEVERANCE","HOENIX"];
 let i=0;
 setInterval(
