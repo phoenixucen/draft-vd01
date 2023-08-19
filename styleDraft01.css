@@ -30,6 +30,7 @@
   }
   .orange{
     color: #FD841F;
+    text-shadow: 0.5px 0.5px #ff0000;
   }
 
   .wipe-container {
