@@ -28,7 +28,10 @@
   .lead-line{
     font-size: 1.5vw;
   }
-
+.orange{
+color : #FD841F;
+text-decoration: underline overline;
+}
   .wipe-container {
     position: relative;
     overflow: hidden;
