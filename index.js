@@ -1,5 +1,5 @@
 document.getElementById("wipe-text").style.animation= "wipeout 1s linear 2.1s";
-const texts=["RIDE","OWER","URPOSE","RINCIPLE","REPARATION","LANNING","RACTICE","OINT","RODUCTIVITY","ATIENCE","ERSEVERANCE","HOENIX"];
+const texts=["RIDE","OWER","URPOSE","RINCIPLE","REPARATION","LANNING","RACTICE","RODUCTIVITY","ATIENCE","ERSEVERANCE","ROGRAMMER","HOENIX"];
 let i=0;
 let toggle=false;
 setInterval(
