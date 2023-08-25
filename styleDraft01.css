@@ -1,6 +1,6 @@
   header {
     margin: 0;
-    
+    display: block;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -100,6 +100,31 @@
   position: sticky;
   top: 0;
   padding: 5px;
-  background-image: linear-gradient(to right, darkblue , black);
+  background-color: #f3f3f3;
+  /* background-image: linear-gradient(to right, white , #white); */
   border: 2px solid #e75208;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: Dosis, sans-serif;
+  font-weight: 400 !important;
+  letter-spacing: 0.5px;
+}
+
+.center-text{
+  text-align: center;
+  font-size:  1.5rem;
+  
+}
+
+.quote{
+  text-align: center;
+  text-decoration: overline underline;
+  font-size: 2rem;
+  font-style: italic;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
