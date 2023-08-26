@@ -6,6 +6,7 @@
     height: 100vh;
     color: white;
     background: url("assets/images/codeScreen.jpg");
+    font-size:3vw;
   }
 
   .center img{
@@ -18,11 +19,6 @@
     padding-left: 40vw;
     padding-top: 10vw;
   }
-
-  p{
-    font-size:3vw ;
-  }
-
   .cc{
     margin-top: 2vh;
   }
@@ -99,6 +95,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  margin-top: 1vh;
   padding: 5px;
   background-color: #f3f3f3;
   /* background-image: linear-gradient(to right, white , #white); */
@@ -117,8 +114,7 @@ h2 {
 
 .center-text{
   text-align: center;
-  font-size:  1.5rem;
-  
+  font-size:  1.5rem;  
 }
 
 .quote{
@@ -128,3 +124,40 @@ h2 {
   font-style: italic;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+#intro-name,#vision-mission{
+  min-height: 80vh;
+  padding: 2vh 4vw;
+}
+
+.boxers1,.boxers2{
+  display: flex;
+  text-align: center;
+  font-size: large;
+  justify-content: center;
+}
+
+.boxer1{
+  max-width: 33%;
+padding: 20px;
+margin: 30px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+.boxer2{
+  max-width: 50%;
+padding: 20px;
+margin: 30px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+.boxer1:hover , .boxer2:hover {
+    background-color: #ccc;
+}
+
+/* .boxer1{
+   experimenting 
+  -webkit-box-flex: 0;
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+} */
