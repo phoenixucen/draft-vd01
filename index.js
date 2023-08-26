@@ -1,5 +1,5 @@
-document.getElementById("wipe-text").style.animation= "wipeout 1s linear 2.1s";
-const texts=["RIDE","OWER","URPOSE","RINCIPLE","REPARATION","LANNING","RACTICE","RODUCTIVITY","ATIENCE","ERSEVERANCE","ROGRAMMER","HOENIX"];
+document.getElementById("wipe-text").style.animation= "wipeout 0.5s linear 2.1s";
+const texts=["RIDE","OWER","URPOSE","RINCIPLE","REPARATION","LANNING","RACTICE","RODUCTIVITY","ATIENCE","ERSEVERANCE","ROGRAMMING","HOENIX"];
 let i=0;
 let toggle=false;
 setInterval(
@@ -13,7 +13,7 @@ setInterval(
                         document.getElementsByClassName("cc")[0].classList.toggle("orange");
                         toggle=true;
                 }
-                document.getElementById("wipe-text").style.animation = "wipein 1s linear,wipeout 1s linear 2s";
+                document.getElementById("wipe-text").style.animation = "wipein 0.5s linear,wipeout 0.5s linear 1.6s";
                 setTimeout(() => {
 
                         document.getElementById("wipe-text").innerHTML = "";
@@ -24,11 +24,11 @@ setInterval(
                                 document.getElementsByClassName("cc")[0].classList.toggle("orange");
                                 toggle=false;    
                         }
-                }, 3000); i++;
+                }, 2000); i++;
         } else {
                 i = 0;
                 document.getElementById("wipe-text").innerHTML="HOENIX";
         }
 
-},3100);
+},2100);
 
