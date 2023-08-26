@@ -15,9 +15,10 @@
   }
 
   .center {
+    padding-top: 5vh;
     color: white;
-    padding-left: 40vw;
-    padding-top: 10vw;
+    display: flex;
+    justify-content: center ;
   }
   .cc{
     margin-top: 2vh;
@@ -161,3 +162,50 @@ border-radius: 5px;
   flex: 0 0 33.33333%;
   max-width: 33.33333%;
 } */
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.make-3-tiles{
+  display: flex;
+  
+  justify-content: center; /* Center align the boxes horizontally */
+}
+.tile {
+  width: 33%;
+  text-align: center;
+  margin: 10px;
+  background-color: #838383;
+  /* background-color: rgb(251, 216, 216); */
+  opacity: 0;
+  border: 1px solid rgb(237, 108, 108) ;
+  animation: fadeIn 1s ease forwards;
+}
+
+.tile:nth-child(1) {
+  animation-delay: 0.5s; /* Delay the animation for the first box */
+}
+
+.tile:nth-child(2) {
+  animation-delay: 1.5s; /* Delay the animation for the second box */
+}
+
+.tile:nth-child(3) {
+  animation-delay: 2.5s; /* Delay the animation for the third box */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
