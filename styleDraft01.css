@@ -17,7 +17,12 @@ header {
     width:25vw;
     padding-bottom: 0;
   }
-
+  #single-home-button a{
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    margin: 4vh 4vw;
+  }
   .center {
     padding-top: 5vh;
     color: white;
