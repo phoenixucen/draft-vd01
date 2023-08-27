@@ -5,12 +5,12 @@ header {
     justify-content: center;
     height: 100vh;
     color: white;
-    background: url("assets/images/codeScreen.jpg");
     font-size:3vw ;    
   }
   html{
     background-color: #f9f9f9;
     scroll-behavior: smooth;
+    background: url("assets/images/codeScreen.jpg");
   }
   .center img{
     width:25vw;
