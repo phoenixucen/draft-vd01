@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;1,400;1,700&family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styleDraft01.css">
     <title>PCC UCEN</title>
 </head>
 <body>
-    <section id="home">
+    <section id="home" >
+        <div class="unblurred">
     <header >
         <div class="make-3-tiles">
             <div class="tile">Make it Work</div>
@@ -15,13 +22,14 @@
             <div class="tile">Make it Fast</div>
         </div>
         <div class="center">
-            <div>   
+        <div>   
         <img src="assets/images/PhoenixCode.png">
        <p class="wipe-container">P<span id="wipe-text">HOENIX</span></p><p class="cc">CODE CLAN</p> 
        <p class="lead-line">Not just the word, Show us the Code</p>
         </div>
     </div> 
     </header>
+    </div>
     </section>
     <nav id="sticky-navbar">
         <ul>
@@ -30,6 +38,7 @@
             <li><a href="#news">NEWS/Latest</a></li>           
             <li><a href="#about">ABOUT</a></li>
             <li><a class="active" href="#home">HOME</a></li>
+            <li>We'll change the colurs and style</li>
             <li style="float: left;">
                 <div id="float-icon">
                     <img src="assets/images/nav-bar-icon-black.png" height="45vh" alt="Navagation Bar">
@@ -37,8 +46,8 @@
             </li>
           </ul>          
     </nav>
-    <section id="about">
-    <div id="intro-name">
+    <section id="about" class="dive-in">
+    <div id="intro-name" class="dive-in">
     <h2> Phoenix Code Clan: A Journey from Ashes to Achievements </h2>
     <p class="center-text">
         (We'll shorten This) At Phoenix Code Clan, our name is a reflection of the values and principles that guide our coding journey. <br> Just like the immortal bird of Greek mythology, the phoenix, we embrace the spirit of rejuvenation and growth. The phoenix is known to rise from the ashes of its predecessor, embodying the qualities of immortal will, consistency, and perseverance. These attributes parallel the challenges faced by programmers, where the journey often involves rising above failures and setbacks.
@@ -52,7 +61,7 @@
     </div>
     </section>
     <hr>
-        <section id="vision-mission">
+        <section id="vision-mission" class="dive-in">
         <h2>Our Mission and Vision</h2>
         <!-- <p class="center-text" id="vision-mission">
             (Should modify content and style (better if in Boxes)) <br>
@@ -94,7 +103,7 @@
         </div>
         </section>
         
-    <section id="register">
+    <section id="register" class="dive-in">
         <h3>Connect</h3>
         <p>Join the "Passion for Programming" today</p>
         <!-- <button>register</button> -->
@@ -103,13 +112,14 @@
     
     <footer>
         <hr>
-        <section class="contact" id="contact">
+        <section class="contact" id="contact" class="dive-in">
             <h3>Contact</h3>
             <p>Feel Free to conevy your suggesions, comments and queries <br> "We are all ears"</p>
             <p id="email">phoenixcodeclan@gmail.com </p><p> devarapallivamsi2005@gmail.com  <br> Ph: 7382263680</p>
         </section>
         <div class="copyright">
         <p>&copy; 2023 PCC Website. All rights (will be) reserved.</p>
+        <p style="font-size: small; text-align: right;">DEVarapalli Vamsi</p>
         </div>
     </footer>
     <script src="index.js"></script>
