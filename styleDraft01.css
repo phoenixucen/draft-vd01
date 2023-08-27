@@ -1,4 +1,4 @@
-  header {
+header {
     margin: 0;
     display: block;
     align-items: center;
@@ -6,9 +6,12 @@
     height: 100vh;
     color: white;
     background: url("assets/images/codeScreen.jpg");
-    font-size:3vw;
+    font-size:3vw ;    
   }
-
+  html{
+    background-color: #f9f9f9;
+    scroll-behavior: smooth;
+  }
   .center img{
     width:25vw;
     padding-bottom: 0;
@@ -68,7 +71,7 @@
         transform: translateY(-100%);
     }
   }
-   ul {
+    ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
@@ -115,15 +118,19 @@ h2 {
 
 .center-text{
   text-align: center;
-  font-size:  1.5rem;  
+  font-size:  1.5rem;
 }
 
 .quote{
   text-align: center;
   text-decoration: overline underline;
   font-size: 2rem;
+  margin: 25px 0;
+  background-color: paleturquoise;
+  padding: 7px 0;
+  border-left: #162a92 solid 5px;
   font-style: italic;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
 }
 
 #intro-name,#vision-mission{
@@ -163,15 +170,7 @@ border-radius: 5px;
   max-width: 33.33333%;
 } */
 
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 5px;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
+
 
 .make-3-tiles{
   display: flex;
@@ -182,10 +181,11 @@ footer {
   width: 33%;
   text-align: center;
   margin: 10px;
-  background-color: #838383;
+  background-color: #162a92;
   /* background-color: rgb(251, 216, 216); */
   opacity: 0;
-  border: 1px solid rgb(237, 108, 108) ;
+  border-radius: px;
+  border: 1px double rgb(237, 108, 108) ;
   animation: fadeIn 1s ease forwards;
 }
 
@@ -208,4 +208,31 @@ footer {
   100% {
     opacity: 1;
   }
+}
+
+#register{
+  text-align: center;
+  padding: 5px;
+  position: relative;
+  width: 100%;
+  font-size: large;
+  background-color: #f2f2f2;
+}
+.contact{
+  text-align: center;
+  padding: 5px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: large;
+}
+
+.copyright {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
