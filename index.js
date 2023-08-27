@@ -32,8 +32,8 @@ setInterval(
 
 },2100);
 
-const sections = document.querySelectorAll('.dive-in');
 
+const sections = document.querySelectorAll('.dive-in');
 window.addEventListener('scroll', () => {
     sections.forEach(section => {
         const sectionTop = section.getBoundingClientRect().top;
