@@ -32,3 +32,14 @@ setInterval(
 
 },2100);
 
+const sections = document.querySelectorAll('.dive-in');
+
+window.addEventListener('scroll', () => {
+    sections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+        if (sectionTop - window.innerHeight <= 0) {
+            section.style.opacity = '1';
+            section.style.transform = 'translateY(0)';
+        }
+    });
+});
