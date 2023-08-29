@@ -1,3 +1,11 @@
+window.addEventListener("orientationchange", function() {
+  if (window.innerHeight > window.innerWidth) {
+    alert("Turn Landscape to continue to website");
+  }
+});
+
+
+
 document.getElementById("wipe-text").style.animation= "wipeout 0.5s linear 2.1s";
 const texts=["RIDE","OWER","URPOSE","RINCIPLE","REPARATION","LANNING","RACTICE","RODUCTIVITY","ATIENCE","ERSEVERANCE","ROGRAMMING","HOENIX"];
 let i=0;
@@ -42,12 +50,6 @@ window.addEventListener('scroll', () => {
             section.style.transform = 'translateY(0)';
         }
     });
-});
-
-window.addEventListener("orientationchange", function() {
-  if (window.innerHeight > window.innerWidth) {
-    alert("Turn Landscape to continue to website");
-  }
 });
 
 
