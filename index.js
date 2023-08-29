@@ -43,3 +43,11 @@ window.addEventListener('scroll', () => {
         }
     });
 });
+
+window.addEventListener("orientationchange", function() {
+  if (window.innerHeight > window.innerWidth) {
+    alert("Turn Landscape to continue to website");
+  }
+});
+
+
