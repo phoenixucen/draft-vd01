@@ -1,9 +1,8 @@
-window.addEventListener("orientationchange", function() {
-  if (window.innerHeight > window.innerWidth) {
+function checkOrientation() {
+  if (window.innerWidth < window.innerHeight) {
     alert("Turn Landscape to continue to website");
   }
-});
-
+}
 
 
 document.getElementById("wipe-text").style.animation= "wipeout 0.5s linear 2.1s";
