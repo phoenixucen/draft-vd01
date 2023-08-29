@@ -1,8 +1,18 @@
+const landscapeMessage = document.getElementById('landscapeMessage');
+
 function checkOrientation() {
   if (window.innerWidth < window.innerHeight) {
-    alert("Turn Landscape to continue to website");
+    landscapeMessage.style.display = 'block';
+  } else {
+    landscapeMessage.style.display = 'none';
   }
 }
+
+// Initial check on page load
+checkOrientation();
+
+// Check orientation whenever the window is resized
+window.addEventListener('resize', checkOrientation);
 
 
 document.getElementById("wipe-text").style.animation= "wipeout 0.5s linear 2.1s";
